@@ -1,0 +1,5 @@
+opencv-python==4.9.0.80
+ultralytics==8.0.206
+supervision==0.16.0
+python-dotenv==0.21.1
+torch>=2.1
