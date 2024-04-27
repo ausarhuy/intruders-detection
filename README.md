@@ -2,12 +2,13 @@
 
 This project is an automated surveillance system that detects intruders in camera view and sends notifications to an administrator via email. It leverages a pre-trained YOLOv8 model for object detection and is capable of tracking intruders' movements. When a new intruder is detected, an email notification with images of the intruder is sent to the designated admin email address.
 
+Reference: [beethogedeon/intrusalerts](https://github.com/beethogedeon/intrusalerts)
 ![](./images/image.gif)
 
 ## Project Structure
 
 ```
-├── detection.py        # Intruder detection and handling script
+├── detector.py        # Intruder detection and handling script
 ├── images              # Directory for storing images of detected intruders
 ├── main.py             # Main executable script to run the intruder detection
 ├── notifications.py    # Module for handling email notifications
